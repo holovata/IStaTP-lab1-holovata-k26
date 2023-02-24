@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HolovataLab1WebApplication.props" />
+</Project>
