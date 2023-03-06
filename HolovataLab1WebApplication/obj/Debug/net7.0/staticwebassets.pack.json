@@ -149,6 +149,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Work\\k26\\ІСтТП\\lab1\\HolovataLab1WebApplication\\HolovataLab1WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.css"
+    },
+    {
+      "Id": "C:\\Work\\k26\\ІСтТП\\lab1\\HolovataLab1WebApplication\\HolovataLab1WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css"
+    },
+    {
       "Id": "C:\\Work\\k26\\ІСтТП\\lab1\\HolovataLab1WebApplication\\HolovataLab1WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },

@@ -51,12 +51,12 @@ public partial class DblibraryLab1Context : DbContext
         {
             entity.Property(e => e.Time).HasColumnType("datetime");
 
-            entity.HasOne(d => d.User).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.UserId)
+            entity.HasOne(d => d.Shop).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.ShopId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Orders_Shops");
 
-            entity.HasOne(d => d.UserNavigation).WithMany(p => p.Orders)
+            entity.HasOne(d => d.User).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Orders_Users");
@@ -64,7 +64,7 @@ public partial class DblibraryLab1Context : DbContext
 
         modelBuilder.Entity<OrderedProduct>(entity =>
         {
-            entity.Property(e => e.Price).HasColumnType("smallmoney");
+            //entity.Property(e => e.Price).HasColumnType("smallmoney");
 
             entity.HasOne(d => d.Color).WithMany(p => p.OrderedProducts)
                 .HasForeignKey(d => d.ColorId)
